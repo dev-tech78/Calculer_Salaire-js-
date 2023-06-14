@@ -1,5 +1,81 @@
-<!Doctype html>
-<html lang=fr>
-<head></head>
-<body>
-</body>
+<htm>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css"> 
+       
+
+   
+    </head>
+    <body >
+        <table>
+        <form name="bdc" action="">
+            <tr>
+                <td width="200"></td>
+                <td>Infos   </td>
+                <td>Charges</td>
+                <td>Total </td>
+            </tr>
+            <tr>
+                <td>Ancienneté : plus de 5ans</td>
+                <td ><input name="qt1" id="qt1" type="text" size"2" value="" /></td>
+                <td><input name="pu1"  type="text" size"5" value="" placeholder="10%"  /></td>
+                <td><input name="ht1"  type="text" size"5"  /></td>
+            </tr>
+            <tr>
+                <td>Sexe : 2% de réduction P/f </td>
+                <td ><input name="qt2" id="qt2" type="text" size"2" value="" /></td>
+                <td><input name="pu2"  type="text" size"5" value="" placeholder="10%" /></td>
+                <td><input name="ht2"  type="text" size"5"  /></td>
+            </tr>
+            <tr>
+                <td>Bonus</td>
+                <td ><input name="qt3" id="qt3" type="text" size"2" value="" /></td>
+                <td><input name="pu3"  type="text" size"5" value="100" /></td>
+                <td><input name="ht3"  type="text" size"5"  /></td>
+            </tr>
+            <tr>
+                <td>Allocation</td>
+                <td ><input name="qt4" id="qt4" type="text" size"2" value="" /></td>
+                <td><input name="pu4"  type="text" size"5" value="150 " /></td>
+                <td><input name="ht4"  type="text" size"5"  /></td>
+            </tr>
+            <tr>
+                <td>Impôts sur le revenu </td>
+                <td ><input name="qt5" id="qt5" type="text" size"2" value="" /></td>
+                <td><input name="pu5"  type="text" size"5" value="" placeholder="18%" /></td>
+                <td><input name="ht5"  type="text" size"5"  /></td>
+            </tr>
+            <tr>
+                <td>Assurance employée</td>
+                <td ><input name="qt6" id="qt6" type="text" size"2" value="" /></td>
+                <td><input name="pu6"  type="text" size"5" value=""  placeholder="7%"/></td>
+                <td><input name="ht6"  type="text" size"5"  /></td>
+            </tr>
+            <tr>
+                <td>Régime de pensions</td>
+                <td ><input name="qt7" id="qt7" type="text" size"2" value="" /></td>
+                <td><input name="pu7"  type="text" size"5" value="" placeholder="5%" /></td>
+                <td><input name="ht7"  type="text" size"5"  /></td>
+            </tr>
+         
+            <tr>
+                <td>Salaire</td>
+                <td ><input name="qta" id="qta" type="text" size"2" value="" placeholder="Salaire" /></td>
+                <td><input name="pua"  type="text" size"5" value="" /></td>
+                <td><input name="hta"  type="text" size"5"  value="" /></td>
+            </tr>
+            
+           
+            <tr>
+                <td><input type="button"  value="Calculer" onclick="Calculer();"></td>
+                <td ><input type="submit"  value="Envoyer"></td>
+                <td>Salaire net</td>
+                <td><input name="ttc"  id="ttc" type="text" size"5"  value="" /></td>
+            </tr>
+
+        </form>
+        </table>
+        <script src="salaire.js"></script>
+        </body>
+        </htm>
